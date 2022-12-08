@@ -17,7 +17,7 @@ func main() {
 	// Parsing the flags provided by the user
 	flag.Parse()
 
-	// Calling the count function to count the number of words
+	// Calling the count function to count the number of words/lines/bytes
 	// received from the Standard Input and printing it out
 	fmt.Println(count(os.Stdin, *lines, *bytes))
 }
